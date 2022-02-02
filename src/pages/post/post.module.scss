@@ -1,1 +1,77 @@
-// TODO
+.banner {
+    width: 1440px;
+    margin: 0 auto;
+    height: 400px;
+    display: block;
+}
+
+.container {
+    width: 720px;
+    margin: 5rem auto 5rem;
+    padding: 0;
+    display: flex;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 3.75rem;
+    }
+}
+
+.info {
+    display: flex;
+    align-items: flex-start;
+    color: var(--info-color);
+
+    time,
+    span {
+        display: flex;
+        align-self: center;
+        font-size: 0.875rem;
+        margin-top: 1.5rem;
+        
+        svg {
+            width: 20px;
+            height: 20px;
+            margin-right: 0.5rem;
+        }
+    }
+
+    span {
+        padding: 0;
+        margin-left: 2.5rem;
+        display: flex;
+    }
+}
+
+.content {
+    h2 {
+        font-size: 2.25rem;
+        font-weight: 700;
+        color: var(--heading-color);
+        margin: 4rem 0 4rem;
+    }
+
+    a {
+        color: var(--highlight-color);
+    }
+
+    * {
+        font-size: 18px;
+        color: var(--body-color);
+    }    
+}
+
+.contentBody {
+    line-height: 2rem;
+    p+p {
+        margin-bottom: 1rem;
+    }
+}
+.loading {
+    width: 720px;
+    font-size: 5rem;
+    margin: 10rem auto;
+
+    color: var(--heading-color)
+}
